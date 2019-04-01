@@ -30,6 +30,7 @@ bool Rocket::init() {
   trail->setLife(1.f);
   sprite->addChild(trail);
   trail->setPosition({70, 500});
+  return true;
 }
 
 void Rocket::reset() {
